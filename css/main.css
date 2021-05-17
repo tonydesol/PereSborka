@@ -147,7 +147,7 @@ span {
 }
 
 .button:hover{
-	background-color: #F9C199;
+	background-color: #d48824;
 }
 
 .connection{
@@ -167,7 +167,7 @@ span {
 }
 
 .connection:hover{
-	background-color: #F9C199;
+	background-color: #d48824;
 }
 
 .img_footer {
@@ -179,8 +179,6 @@ span {
 	margin-top: 100px;
 	padding: 10px 0px 81px 0px;
 }
-
-
 
 .txt {
 	background-color: #F0F0F0;
@@ -204,3 +202,10 @@ span {
 	margin-top: -93px;
 }
 
+.huy{
+	color:white;
+}
+
+.huy:hover{
+	color: #088888;
+}
