@@ -1,0 +1,863 @@
+@media screen and (max-width: 1440px) and (orientation: landscape) {
+
+    body{
+        padding: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;     
+        text-decoration: none;
+        overflow-x: hidden;
+    
+        -moz-user-select: none;
+        -o-user-select:none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+         user-select: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    h1{
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 90px;
+        line-height: 117px;
+        color: #FFFFFF;   
+    }
+    h2{
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 88px; 
+        color: #000000;
+    }
+    h3{
+        position: absolute; 
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    h4{
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;    
+    }
+    h5{
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px; 
+        color: #FFFFFF;
+    }
+    p{
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+    }
+    
+    
+    
+    /* --------------------header------------------------------------------------------------ */
+    .show-menu {
+        display: none;
+    }
+    .menu-phone{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .logo-phone{
+        position: absolute;
+        left: 39px;
+        top: 15px;
+        display: none;
+    }
+    .menu-burger{
+        position: absolute;
+        top: 14px;
+        left: 348px;
+        display: none;
+    }
+    .soc-phone .vk{
+        position: absolute;
+        left: 193px;
+        top: 23px;
+        pointer-events: none;
+        display: none;
+    }
+    .soc-phone .telegram{
+        position: absolute;
+        left: 244px;
+        top: 21px;
+        pointer-events: none;
+        display: none;
+    }
+    .soc-phone .inst{
+        position: absolute;
+        left: 291px;
+        top: 19px;
+        pointer-events: none;
+        display: none;
+    }
+    
+    
+    .menu .logo{
+        position: absolute;
+        top: 20px;
+        left: 130px;
+        pointer-events: none;
+    }
+    .sub-menu .sub1{
+        position: absolute;
+        left: 236px;
+        top: 35px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .sub-menu .sub2{
+        position: absolute;
+        left: 359px;
+        top: 35px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .sub-menu .sub3{
+        position: absolute;
+        left: 470px;
+        top: 35px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .sub-menu .sub4{
+        position: absolute;
+        left: 619px;
+        top: 35px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .sub-menu .sub5{
+        position: absolute;
+        left: 760px;
+        top: 35px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .sub-menu a:after {
+        display: block; 
+        content: ""; 
+        height: 4px; 
+        width: 0%; 
+        background-color: #000; 
+        transition: width 0.2s ease-in-out;
+        margin-top: 4px;
+        }
+        
+    .sub-menu a:hover:after,
+    .sub-menu a:focus:after {
+        width: 100%;
+    }
+    .header .soc .vk{
+        position: absolute;
+        top: 35px;
+        left: 1110px;
+        pointer-events: none;
+    }
+    .header .soc .telegram{
+        position: absolute;
+        top: 31px;
+        left: 1190px;
+        pointer-events: none;
+    }
+    .header .soc .inst{
+        position: absolute;
+        top: 27px;
+        left: 1270px;
+        pointer-events: none;
+    }
+    .menu .soc{
+        top: -1000px;
+    }
+    /* -----------------------------------------bg----------------------------------------- */
+    .bg img{
+        position: absolute;
+        width: 1440px;
+        height: 925px;
+        left: 0px;
+        top: 100px;
+        pointer-events: none;
+    }
+    .bg h1{
+        left: 270px;
+        top: 400px;
+        text-align: center;
+        width: 900px;
+    }
+    
+    /* -----------------------------------------cont1----------------------------- */
+    
+    .cont1 h2{
+        left: 347px;
+        top: 1283px;
+        text-align: center; 
+    }
+    .cont1 .line{
+        position: absolute;
+        width: 78px;
+        height: 0px;
+        border: 5px solid #262934;
+        transform: rotate(90deg);
+    }
+    .left1 .line{
+        left: 130px;
+        top: 1659px;
+    }
+    .left2 .line{
+        left: 130px;
+        top: 1855px;
+    }
+    .right1 .line{
+        left: 709px;
+        top: 1659px;
+    }
+    .right2 .line{
+        left: 709px;
+        top: 1855px;
+    }
+    .left1 p{
+        position: absolute;
+        left: 191px;
+        top: 1579px;
+    }
+    .left2 p{
+        position: absolute;
+        left: 191px;
+        top: 1775px;
+    }
+    .right1 p{
+        position: absolute;
+        left: 770px;
+        top: 1579px;
+    }
+    .right2 p{
+        position: absolute;
+        left: 770px;
+        top: 1775px;
+    }
+    
+    
+    /* -----------------------------cont2------------------------------------------------ */
+    .cont2 h2{
+        left: 341px;
+        top: 2025px;
+    }
+    .cont2 .news_first .data{
+        position: absolute;
+        left: 130px;
+        top: 2483px;
+    }
+    .cont2 .news_first img{
+        position: absolute;
+        left: 130px;
+        top: 2264px;
+        pointer-events: none;
+    }
+    .cont2 .news_first h3{
+        position: absolute;
+        left: 130px;
+        top: 2545px;
+    }
+    .cont2 .news_first h4{
+        position: absolute;
+        left: 130px;
+        top: 2625px;
+    }
+    
+    .cont2 .news_second .data{
+        position: absolute;
+        left: 545px;
+        top: 2483px;
+    }
+    .cont2 .news_second img{
+        position: absolute;
+        left: 545px;
+        top: 2264px;
+        pointer-events: none;
+    }
+    .cont2 .news_second h3{
+        position: absolute;
+        left: 545px;
+        top: 2545px;
+    }
+    .cont2 .news_second h4{
+        position: absolute;
+        left: 545px;
+        top: 2625px;
+    }
+    
+    .cont2 .news_third .data{
+        position: absolute;
+        left: 960px;
+        top: 2483px;
+    }
+    .cont2 .news_third img{
+        position: absolute;
+        left: 960px;
+        top: 2264px;
+        pointer-events: none;
+    }
+    .cont2 .news_third h3{
+        position: absolute;
+        left: 960px;
+        top: 2545px;
+    }
+    .cont2 .news_third h4{
+        position: absolute;
+        left: 960px;
+        top: 2625px;
+    }
+    
+    /* ----------------------------------------footer----------------------- */
+    
+    .footer{
+        position: absolute;
+        width: 1440px;
+        height: 673px;
+        left: 0px;
+        top: 2987px;  
+        background: #262934;
+    }
+    .email .back{
+        position: absolute;
+        width: 580px;
+        height: 61px;
+        left: 130px;
+        top: 171px;  
+        background: #DFDFDF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+    .email .front{
+        position: absolute;
+        width: 180px;
+        height: 61px;
+        left: 530px;
+        top: 171px;
+        background: #ee8a19;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF; 
+    }
+    
+    .email .front:hover{
+        background:  #dbce16;
+    }
+    
+    .email h5{
+        position: absolute;
+        left: 130px;
+        top: 10px;
+        color: #FFFFFF;    
+    }
+    .email h3{
+        position: absolute;
+        left: 149px;
+        top: 163px;
+        color: #A4A4A4;  
+    }
+    .email h4{
+        position: absolute;
+        left: 782px;
+        top: 175px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;  
+    }
+    
+    .footer .soc{
+        max-width: 201px;
+        max-height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1110px;
+        pointer-events: none;
+    }
+    .footer .soc .vk{
+        position: absolute;
+        top: 195px;
+        
+    }
+    .footer .soc .telegram{
+        position: absolute;
+        top: 191.26px;
+    }
+    .footer .soc .inst{
+        position: absolute;
+        top: 187px;
+    }
+    
+    .info .first h5{
+        position: absolute;
+        left: 130px;
+        top: 284px;
+        color: #FFFFFF;   
+    }
+    .info .first .first__first{
+        position: absolute;
+        left: 130px;
+        top: 410px;
+        color: #FFFFFF;    
+    }
+    .info .first .first__second{
+        position: absolute;
+        left: 130px;
+        top: 457px;
+        color: #FFFFFF;  
+    }
+    
+    .info .second h5{
+        position: absolute;
+        left: 357px;
+        top: 284px;
+        color: #FFFFFF;   
+    }
+    .info .second .second__first{
+        position: absolute;
+        left: 357px;
+        top: 410px;
+        color: #FFFFFF;
+    }
+    .info .second .second__second{
+        position: absolute;
+        left: 357px;
+        top: 457px;
+        color: #FFFFFF;
+    }
+    .info .second .second__third{
+        position: absolute;
+        left: 357px;
+        top: 501px;
+        color: #FFFFFF;
+    }
+    
+    .info .third h5{
+        position: absolute;
+        left: 759px;
+        top: 284px;
+    }
+    .info .third h3{
+        position: absolute;
+        left: 759px;
+        top: 410px;
+        color: #FFFFFF;
+    }
+    
+    .info .fourth h5{
+        position: absolute;
+        left: 1110px;
+        top: 284px;
+    }
+    .info .fourth h3{
+        position: absolute;
+        left: 1110px;
+        top: 410px;
+        color: #FFFFFF;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ------------------------------------ABOUT US-------------------------------------- */
+    /* ------------cont1-------------- */
+    .bg-aboutus img{
+        position: absolute;
+        width: 1440px;
+        height: 925px;
+        left: 0px;
+        top: 100px;
+        pointer-events: none;
+    }
+    .bg-aboutus h1{
+        left: 110px;
+        top: 350px;
+        text-align: center; 
+    }
+    .cont1 .about__us h2{
+        left: 358px;
+        top: 1283px;
+        text-align: center; 
+    }
+    .cont1 .about__us .line{
+        position: absolute;
+        width: 114px;
+        height: 0px;
+        border: 5px solid #262934;
+        transform: rotate(90deg);
+    }
+    .cont1 .about__us .left1 .line{
+        left: 130px;
+        top: 1659px;
+    }
+    .cont1 .about__us .left2 .line{
+        left: 130px;
+        top: 1855px;
+    }
+    .cont1 .about__us .right1 .line{
+        left: 702px;
+        top: 1659px;
+    }
+    .cont1 .about__us .right2 .line{
+        left: 702px;
+        top: 1855px;
+    }
+    .cont1 .about__us .left1 p{
+        position: absolute;
+        left: 210px;
+        top: 1559px;
+    }
+    .cont1 .about__us .left2 p{
+        position: absolute;
+        left: 210px;
+        top: 1755px;
+    }
+    .cont1 .about__us .right1 p{
+        position: absolute;
+        left: 780px;
+        top: 1559px;
+    }
+    .cont1 .about__us .right2 p{
+        position: absolute;
+        left: 780px;
+        top: 1755px;
+    }
+    
+    /* ------cont2---------- */
+    .cont2 .about__us h2{
+        left: 416px;
+        top: 2014px;
+        text-align: center; 
+    }
+    .cont2 .about__us .line{
+        position: absolute;
+        width: 114px;
+        height: 0px;
+        border: 5px solid #262934;
+        transform: rotate(90deg);
+    }
+    .cont2 .about__us .left1 .line{    
+        left: 130px;
+        top: 2310px;
+    }
+    .cont2 .about__us .left2 .line{
+        left: 77px;
+        top: 2553px;
+    }
+    .cont2 .about__us .right1 .line{
+        left: 702px;
+        top: 2310px;
+    }
+    .cont2 .about__us .right2 .line{
+        left: 649px;
+        top: 2553px;
+    }
+    .cont2 .about__us .left1 p{
+        position: absolute;
+        left: 210px;
+        top: 2211px;
+    }
+    .cont2 .about__us .left2 p{
+        position: absolute;
+        left: 210px;
+        top: 2407px;
+    }
+    .cont2 .about__us .right1 p{
+        position: absolute;
+        left: 780px;
+        top: 2211px;
+    }
+    .cont2 .about__us .right2 p{
+        position: absolute;
+        left: 780px;
+        top: 2407px;
+    }
+    
+    .about__us .footer{
+        top: 2700px;
+    }
+    
+    
+    
+    /* ----------------------------------ENTRANCE------------------------- */
+    
+    .bg .entrance__bg h1{
+        left: 280px;
+        top: 495px;
+    }
+    
+    .entrance__cont .cont__first h2{
+        position: absolute;
+        left: 130px;
+        top: 1300px;
+        max-width: 1090px;
+        max-height: 88px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000; 
+    }
+    .entrance__cont .cont__first h3{
+        position: absolute;
+        left: 220px;
+        top: 1420px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000;
+    }
+    .entrance__cont .cont__first .line{
+        position: absolute;
+        width: 202px;
+        height: 0px;
+        left: 99px;
+        top: 1559px;
+        border: 5px solid #262934;
+        background-color: #262934;
+        transform: rotate(90deg);
+    }
+    
+    .entrance__cont .cont__second h2{
+        position: absolute;
+        left: 130px;
+        top: 1740px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000; 
+    }
+    .entrance__cont .cont__second h3{
+        position: absolute;
+        left: 220px;
+        top: 1857px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000;
+    }
+    .entrance__cont .cont__second .line{
+        position: absolute;
+        width: 290px;
+        height: 0px;
+        left: 55px;
+        top: 2039px;
+        border: 5px solid #262934;
+        background-color: #262934;
+        transform: rotate(90deg);
+    }
+    
+    .entrance__cont .cont__third h2{
+        position: absolute;
+        left: 130px;
+        top: 2253px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000; 
+    }
+    .entrance__cont .cont__third h3{
+        position: absolute;
+        left: 220px;
+        top: 2335px;
+        max-width: 1000px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000;
+    }
+    .entrance__cont .cont__third .line{
+        position: absolute;
+        width: 213px;
+        height: 0px;
+        left: 94px;
+        top: 2480px;
+        border: 5px solid #262934;
+        background-color: #262934;
+        transform: rotate(90deg);
+    }
+    
+    .entrance .footer{
+        top: 2700px;
+    }
+    
+    /* ---------------------------CONTACTS---------------------------------- */
+    
+    .bg .contacts__bg h1{
+        left: 100px;
+        top: 500px;
+        font-size: 80px;
+        width: 1200px;
+    }
+    .contacts__cont h2{
+        position: absolute;
+        left: 201px;
+        top: 1346px;
+        max-width: 1090px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        color: #000000;
+    }
+    .contacts__cont .contacts__spisok{
+        position: absolute;
+        width: 1219px;
+        left: 154px;
+        top: 1534px;
+        line-height: 29px;
+    }
+    .contacts__cont .contacts__spisok p{
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;  
+        color: #000000;
+    }
+    
+    .contacts .footer{
+        top: 2170px;
+    }
+    
+    
+    /* ---------------------------NEWS---------------------------------- */
+    .bg .news__bg h1{
+        left: 245px;
+        top: 500px;
+        font-size: 80px;
+    }
+    
+    .news__cont .news__news{
+        margin-left: -240px;
+        display: block;
+        text-align: center;
+        max-width: 1157px;
+        max-height: 1629px;
+        margin-top: 1326px;
+        line-height: 104px;
+    }
+    .news__cont .news__news .news1 h3{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1306px;
+        color: #000000;   
+    }
+    .news__cont .news__news .news1 h4{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1346px;
+        color: #000000;   
+    }
+    
+    .news__cont .news__news .news2 h3{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1580px;
+        color: #000000;   
+    }
+    .news__cont .news__news .news2 h4{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1606px;
+        color: #000000;   
+    }
+    
+    .news__cont .news__news .news3 h3{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1866px;
+        color: #000000;   
+    }
+    .news__cont .news__news .news3 h4{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 1906px;
+        color: #000000;   
+    }
+    
+    .news__cont .news__news .news4 h3{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 2156px;
+        color: #000000;   
+    }
+    .news__cont .news__news .news4 h4{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 2196px;
+        color: #000000;   
+    }
+    
+    .news__cont .news__news .news5 h3{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 2426px;
+        color: #000000;   
+    }
+    .news__cont .news__news .news5 h4{ 
+        text-align: left;
+        position: absolute;
+        left: 560px;
+        top: 2456px;
+        color: #000000;   
+    }
+    
+    .news .footer{
+        top: 2800px;
+    }
+
+}
