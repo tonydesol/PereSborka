@@ -336,7 +336,9 @@ p{
 }
 
 /* ----------------------------------------footer----------------------- */
-
+#ahover:hover{
+    color: #5877e7;
+}
 .footer{
     position: absolute;
     width: 1920px;
@@ -361,7 +363,7 @@ p{
     height: 61px;
     left: 770px;
     top: 171px;
-    background: #ee8a19;
+    background: #596cd8;
     border: 1px solid #000000;
     box-sizing: border-box;
     font-style: normal;
@@ -372,7 +374,7 @@ p{
 }
 
 .email .front:hover{
-    background:  #dbce16;
+    background:  #314dee;
 }
 
 .email h5{

@@ -105,6 +105,10 @@
         background: rgba(38, 41, 52, 0.85);
     }
 
+    .aa a:hover{
+        color: #5877e7;
+    }
+
     .aa .aa-sub1{
         position: absolute;
         left: 44px;
@@ -420,6 +424,9 @@
     .index .footer{
         top: 1380px;
     }
+    #ahover:hover{
+        color: #5877e7;
+    }
     .footer{ 
         position: absolute;
         width: 428px;
@@ -439,7 +446,7 @@
     }
     .email .front{
         position: absolute;
-        background: #ee8a19;
+        background: #596cd8;
         border: 1px solid #000000;
         box-sizing: border-box;
         font-style: normal;
@@ -454,7 +461,7 @@
     }
     
     .email .front:hover{
-        background:  #dbce16;
+        background:  #314dee;
     }
     
     .email h5{
@@ -1006,10 +1013,11 @@
         position: absolute;
         left: 194px;
         top: 367px;
+        width: 200px;
         text-align: left;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 17px;
         color: #000000;  
     }
@@ -1030,10 +1038,11 @@
         position: absolute;
         left: 194px;
         top: 565px;
+        width: 180px;
         text-align: left;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 17px;
         color: #000000;   
     }
@@ -1058,7 +1067,7 @@
         text-align: left;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 17px;
         color: #000000;   
     }
@@ -1083,7 +1092,7 @@
         text-align: left;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 17px;
         color: #000000;   
     }
@@ -1108,7 +1117,7 @@
         text-align: left;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 17px;
         color: #000000;    
     }
