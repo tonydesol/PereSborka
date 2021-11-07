@@ -474,16 +474,16 @@
         line-height: 24px;
         color: #FFFFFF;
     }
-    .email h3{
-        position: absolute;
-        top: 71px;
-        left: 52.05px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px; 
+    .email .input__email{
+        width: 181px;
+        height: 19px;
+        position: absolute; 
+        left: 45px;
+        top: 80px;
         color: #A4A4A4;  
+        font-size: 12px;
     }
+
     
     .footer .soc{
         max-width: 201px;

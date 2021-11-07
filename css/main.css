@@ -383,11 +383,14 @@ p{
     top: 10px;
     color: #FFFFFF;    
 }
-.email h3{
+.email .input__email{
+    width: 400px;
+    height: 53px;
     position: absolute;
-    left: 389px;
-    top: 163px;
+    left: 370px;
+    top: 172px;
     color: #A4A4A4;  
+    font-size: 36px;
 }
 .email h4{
     position: absolute;

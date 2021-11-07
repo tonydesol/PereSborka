@@ -387,11 +387,14 @@
         top: 10px;
         color: #FFFFFF;    
     }
-    .email h3{
+    .email .input__email{
+        width: 400px;
+        height: 53px;
         position: absolute;
-        left: 89px;
-        top: 163px;
+        left: 50px;
+        top: 172px;
         color: #A4A4A4;  
+        font-size: 36px;
     }
     
     .footer .soc{
